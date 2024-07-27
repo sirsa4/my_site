@@ -19,7 +19,7 @@ const config: Config = {
         DEFAULT: "#f9a8d4", // pink-300
         dark: "#ec4899", // pink-500
         bg: "#f8fafc",
-        white: "#fff",
+        white: "white",
       },
       secondary: {
         light: "#fbcfe8", // pink-200
