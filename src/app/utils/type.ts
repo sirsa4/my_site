@@ -19,5 +19,6 @@ export type ProjectType = {
   url: string,
   github: string,
   title: string,
-  text: string
+  text: string,
+  slide?: string[]
 }

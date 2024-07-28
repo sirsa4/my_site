@@ -20,7 +20,7 @@ export const skills: SkillsType[] = [
 ]
 
 export const projects: ProjectType[] = [
-  { id: uuid(), img: "https://images.pexels.com/photos/17266857/pexels-photo-17266857/free-photo-of-vase-with-flowers-and-cup-of-coffee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", url: "https://github.com/sirsa4", github: "https://github.com/sirsa4", title: "Project one", text: "Project one text" },
+  { id: uuid(), img: "/assets/projects/bachelor1.png", url: "https://github.com/sirsa4", github: "https://github.com/sirsa4", title: "Project one", text: "Project one text", slide: ["/assets/projects/bachelor1.png", "/assets/projects/bachelor1.png", "/assets/projects/bachelor1.png"] },
   { id: uuid(), img: "https://images.pexels.com/photos/17266857/pexels-photo-17266857/free-photo-of-vase-with-flowers-and-cup-of-coffee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", url: "https://github.com/sirsa4", github: "https://github.com/sirsa4", title: "Project two", text: "Project two text" },
   { id: uuid(), img: "https://images.pexels.com/photos/17266857/pexels-photo-17266857/free-photo-of-vase-with-flowers-and-cup-of-coffee.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", url: "https://github.com/sirsa4", github: "https://github.com/sirsa4", title: "Project three", text: "Project three text" }
 
