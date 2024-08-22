@@ -23,7 +23,7 @@ const Dialog = ({ img, url, title, text, body, github, dialogRef, close, slide, 
     })
   }
   return (
-    <dialog ref={dialogRef} className="w-full">
+    <dialog ref={dialogRef} className="w-full rounded">
       <article className="bg-primary-white rounded-lg shadow-md hover:shadow-2xl duration-300">
         <DialogTitle close={close} />
         <div className="p-4 border-b grid lg:grid-cols-2">
@@ -33,7 +33,7 @@ const Dialog = ({ img, url, title, text, body, github, dialogRef, close, slide, 
           </div>
           <img src={img} alt={title} className="w-full object-cover rounded-t-lg h-64" />
         </div>
-        <section className="p-4 w-full">
+        <section className="p-4 w-full lg:w-3/4">
           <p>slide: {slide ? src : "no slide images"}</p>
           <img src={src} alt="slide image" className="rounded" />
           <div className="py-4 flex justify-center gap-x-10">

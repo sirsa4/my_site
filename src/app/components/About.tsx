@@ -9,7 +9,9 @@ const About = () => {
         <img src="/assets/about.svg" alt="image of a person" className="w-full h-80" />
         <article>
           <Title text="About me" />
-          <p className="text-slate-600 mt-8 leading-loose">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur explicabo dignissimos reprehenderit asperiores sunt, odit quod iste ab temporibus sed hic illo, enim sit impedit quis aut eos, velit perspiciatis.</p>
+          <p className="text-slate-600 mt-8 leading-loose">
+            I am a master's student in cybersecurity at Østfold University College, with a bachelor's degree in information systems. My main interests are everything in web development including React and Node.js.
+          </p>
         </article>
       </div>
     </section>

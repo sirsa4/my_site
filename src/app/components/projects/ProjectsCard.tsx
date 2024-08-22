@@ -20,7 +20,6 @@ const ProjectsCard = ({ img, url, title, text, github, id, slide, body }: Projec
         <p className="mt-4 text-slate-700 leading-loose">{text}</p>
         <div className="mt-4">
           <button
-            autoFocus
             type="button"
             className="bg-primary-dark text-primary-white hover:bg-accent font-semibold py-2 px-4 rounded transition duration-300"
             onClick={open}
