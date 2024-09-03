@@ -17,7 +17,7 @@ const About = () => {
         <article>
           <Title text="About me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            I am a master's student in cybersecurity at Østfold University College, with a bachelor's degree in information systems. My main interests are everything in web development including React and Node.js.
+            I am a master&apos;s student in cybersecurity at Østfold University College, with a bachelor&apos;s degree in information systems. My main interests are everything in web development including React and Node.js.
           </p>
         </article>
       </div>
