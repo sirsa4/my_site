@@ -13,7 +13,7 @@ const Dialog = ({
   github,
   dialogRef,
   close,
-  slide,
+  slide = [],
   id,
 }: ProjectType) => {
   const [src, setSrc] = useState<null | string>(slide ? slide[0] : null);
