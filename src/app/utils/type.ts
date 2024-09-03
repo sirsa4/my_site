@@ -22,6 +22,6 @@ export type ProjectType = {
   text: string;
   body?: string;
   slide?: string[];
-  dialogRef: RefObject<HTMLDialogElement>;
-  close: () => void;
+  dialogRef?: RefObject<HTMLDialogElement>;
+  close?: () => void;
 };

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const DialogTitle = ({ close }: { close: () => void }) => {
   return (
@@ -11,7 +11,7 @@ const DialogTitle = ({ close }: { close: () => void }) => {
         Close
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default DialogTitle
+export default DialogTitle;

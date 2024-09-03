@@ -11,8 +11,8 @@ const Dialog = ({
   text,
   body,
   github,
-  dialogRef,
-  close,
+  dialogRef = { current: null },
+  close = () => {},
   slide = [],
   id,
 }: ProjectType) => {
