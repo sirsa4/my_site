@@ -53,7 +53,11 @@ const Dialog = ({
         </div>
         <section className="p-4 w-full lg:w-3/4">
           <p>slide: {slide ? src : "no slide images"}</p>
-          <img src={src} alt="slide image" className="rounded" />
+          <img
+            src={src ? src : undefined}
+            alt="slide image"
+            className="rounded"
+          />
           <div className="py-4 flex justify-center gap-x-10">
             <ArrowLeft onClick={prev} className="cursor-pointer" />
             <ArrowRight onClick={next} className="cursor-pointer" />
